@@ -4,14 +4,29 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "50114089d7de41b6fbcc4d646295169a",
+    "content-hash": "1caf048c2bcad7f8b275f4a792f43328",
     "packages": [
+        {
+            "name": "bower-asset/admin-lte",
+            "version": "1.3.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ColorlibHQ/AdminLTE.git",
+                "reference": "5b7d35a2f2c0ee1b8e6cd7acfa235c497f3f616a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ColorlibHQ/AdminLTE/zipball/5b7d35a2f2c0ee1b8e6cd7acfa235c497f3f616a",
+                "reference": "5b7d35a2f2c0ee1b8e6cd7acfa235c497f3f616a"
+            },
+            "type": "bower-asset"
+        },
         {
             "name": "bower-asset/bootstrap",
             "version": "v3.4.1",
             "source": {
                 "type": "git",
-                "url": "git@github.com:twbs/bootstrap.git",
+                "url": "https://github.com/twbs/bootstrap.git",
                 "reference": "68b0d231a13201eb14acd3dc84e51543d16e5f7e"
             },
             "dist": {
@@ -25,6 +40,26 @@
             "type": "bower-asset",
             "license": [
                 "MIT"
+            ]
+        },
+        {
+            "name": "bower-asset/font-awesome",
+            "version": "v4.7.0",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:FortAwesome/Font-Awesome.git",
+                "reference": "a8386aae19e200ddb0f6845b5feeee5eb7013687"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FortAwesome/Font-Awesome/zipball/a8386aae19e200ddb0f6845b5feeee5eb7013687",
+                "reference": "a8386aae19e200ddb0f6845b5feeee5eb7013687"
+            },
+            "type": "bower-asset",
+            "license": [
+                "OFL-1.1",
+                "MIT",
+                "CC-BY-3.0"
             ]
         },
         {
@@ -53,7 +88,7 @@
             "version": "3.4.1",
             "source": {
                 "type": "git",
-                "url": "git@github.com:jquery/jquery-dist.git",
+                "url": "https://github.com/jquery/jquery-dist.git",
                 "reference": "15bc73803f76bc53b654b9fdbbbc096f56d7c03d"
             },
             "dist": {
@@ -161,6 +196,98 @@
                 "markdown-extra"
             ],
             "time": "2018-03-26T11:24:36+00:00"
+        },
+        {
+            "name": "cebe/yii2-gravatar",
+            "version": "1.1",
+            "target-dir": "cebe/gravatar",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cebe/yii2-gravatar.git",
+                "reference": "c9c01bd14c9bdee9e5ae1ef1aad23f80c182c057"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cebe/yii2-gravatar/zipball/c9c01bd14c9bdee9e5ae1ef1aad23f80c182c057",
+                "reference": "c9c01bd14c9bdee9e5ae1ef1aad23f80c182c057",
+                "shasum": ""
+            },
+            "require": {
+                "yiisoft/yii2": "*"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-0": {
+                    "cebe\\gravatar\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Carsten Brandt",
+                    "email": "mail@cebe.cc",
+                    "homepage": "http://cebe.cc/",
+                    "role": "Core framework development"
+                }
+            ],
+            "description": "Gravatar Widget for Yii 2",
+            "keywords": [
+                "gravatar",
+                "yii"
+            ],
+            "time": "2013-12-10T17:49:58+00:00"
+        },
+        {
+            "name": "dmstr/yii2-adminlte-asset",
+            "version": "1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dmstr/yii2-adminlte-asset.git",
+                "reference": "750bf2fa9d6fbaa0c90ed7aed542a56209b92e56"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dmstr/yii2-adminlte-asset/zipball/750bf2fa9d6fbaa0c90ed7aed542a56209b92e56",
+                "reference": "750bf2fa9d6fbaa0c90ed7aed542a56209b92e56",
+                "shasum": ""
+            },
+            "require": {
+                "bower-asset/admin-lte": "~1.3",
+                "bower-asset/font-awesome": "~4.0",
+                "cebe/yii2-gravatar": "1.*",
+                "yiisoft/yii2": "2.*",
+                "yiisoft/yii2-bootstrap": "2.*"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "dmstr\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Tobias Munk",
+                    "email": "tobias@diemeisterei.de"
+                },
+                {
+                    "name": "Evgeniy Tkachenko",
+                    "email": "et.coder@gmail.com"
+                }
+            ],
+            "description": "Backend theme for Yii2 Framework",
+            "keywords": [
+                "AdminLTE",
+                "extension",
+                "yii2"
+            ],
+            "time": "2015-03-20T13:33:22+00:00"
         },
         {
             "name": "doctrine/lexer",
