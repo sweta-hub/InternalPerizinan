@@ -52,33 +52,32 @@ use yii\bootstrap\Nav;
         <ul class="sidebar-menu">
             <li>
                 <a href="#" class="navbar-link">
-                    <i class="fa fa-angle-down"></i> <span class="text-info">Menu AdminLTE</span>
+                    <i class="fa fa-angle-down"></i> <span class="text-info">Menu Mengelola</span>
                 </a>
             </li>
             <li class="active">
                 <a href="<?= $directoryAsset ?>/index.html">
-                    <i class="fa fa-dashboard"></i> <span>Dashboard</span>
+                    <i class="fa fa-dashboard"></i> <span>Home</span>
                 </a>
             </li>
             <li>
                 <a href="<?= $directoryAsset ?>/pages/widgets.html">
-                    <i class="fa fa-th"></i> <span>Widgets</span>
-                    <small class="badge pull-right bg-green">new</small>
+                    <i class="fa fa-th"></i> <span>Pengendalian</span>
                 </a>
             </li>
             <li class="treeview">
                 <a href="<?= $directoryAsset ?>/#">
                     <i class="fa fa-bar-chart-o"></i>
-                    <span>Charts</span>
+                    <span>Perizinan</span>
                     <i class="fa fa-angle-left pull-right"></i>
                 </a>
                 <ul class="treeview-menu">
                     <li><a href="<?= $directoryAsset ?>/pages/charts/morris.html"><i
-                                class="fa fa-angle-double-right"></i> Morris</a></li>
+                                class="fa fa-angle-double-right"></i> Sekretariat</a></li>
                     <li><a href="<?= $directoryAsset ?>/pages/charts/flot.html"><i class="fa fa-angle-double-right"></i>
                             Flot</a></li>
                     <li><a href="<?= $directoryAsset ?>/pages/charts/inline.html"><i
-                                class="fa fa-angle-double-right"></i> Inline charts</a>
+                                class="fa fa-angle-double-right"></i> Penanaman Modal</a>
                     </li>
                 </ul>
             </li>
